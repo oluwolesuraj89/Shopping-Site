@@ -1,4 +1,4 @@
-// import logo from './logo.svg';
+import logo from './logo.svg';
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import Navbar from './Components/Navbar';
@@ -8,25 +8,49 @@ import Footer from './Components/Footer';
 import { Productdetails } from './Components/Productdetails';
 import { Choppingcart } from './Components/Choppingcart';
 import Checkout  from './Components/Checkout';
+import React,  { Component } from 'react'
+import './index.css'
+import OnBoard from './onboarding';
+import Userprofile from './UserProfile';
+import Createpwd from './Createpwd';
+import Profilecrtd from './Crtsuccess';
+import Loginfin from './Loginsucces';
+import Loginbck from './Login';
+import Profiledtls from './Profile';
 
 function App() {
+  // class App extends Component {
+  //   render() {
   return (
+    // <div className="App">
     <>
-      <Navbar/>
+      // <Navbar/>
+      {/* <BrowserRouter> */}
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/Products' element={<Products/>}/>
         <Route path='/Productdetails' element={<Productdetails/>}/>
         <Route path='/Choppingcart' element={<Choppingcart/>}/>
+
+        {/* <Route path="/Home" element={<Home/>} /> */}
+        <Route path="onboarding" element={<OnBoard />} />
+        <Route path="/UserProfile" element={<Userprofile/>} />
+        <Route path="/Createpwd" element={<Createpwd/>} />
+        <Route path="/Crtsuccess" element={<Profilecrtd/>} />
+        <Route path="/Loginsucces" element={<Loginfin/>} />
+        <Route path="/Login" element={<Loginbck/>} />
+        <Route path="/Profile" element={<Profiledtls/>} />
       </Routes>
       <Footer />
+      {/* </BrowserRouter> */}
     </>
+    
     // <div className="Landing-page">
     //   <header className="Landing-page-header">
         
     //   </header>
     // </div>
   );
-}
-
+// }
+  }
 export default App;
