@@ -56,7 +56,16 @@ const Products = () => {
                   </div>
                   <h4><small>$</small>95<small>.00</small></h4>
                   <p>Red Silettos</p>
-                  <span><img src={stars} alt='stars'/> (91)</span><br/>
+                  <span className='star-details'>
+                    <div id='solid-stars'>
+                        <i className='bx bxs-star'></i>
+                        <i className='bx bxs-star'></i>
+                        <i className='bx bxs-star'></i>
+                        <i className='bx bxs-star'></i>
+                        <i className='bx bxs-star'></i>
+                    </div>
+                    (91)
+                  </span>
                   <button className='addToCart'><i className='bx bx-cart'></i> Add to Cart</button>
                 </div>
                 <div className='img1'>
@@ -66,7 +75,16 @@ const Products = () => {
                   </div>
                   <h4><small>$</small>95<small>.00</small></h4>
                   <p>Red Silettos</p>
-                  <span><img src={stars} alt='stars'/> (91)</span><br/>
+                  <span className='star-details'>
+                    <div id='solid-stars'>
+                        <i className='bx bxs-star'></i>
+                        <i className='bx bxs-star'></i>
+                        <i className='bx bxs-star'></i>
+                        <i className='bx bxs-star'></i>
+                        <i className='bx bxs-star'></i>
+                    </div>
+                    (91)
+                    </span>
                   <button className='addToCart'><i className='bx bx-cart'></i> Add to Cart</button>
                 </div>
                 <div className='img1'>
@@ -76,7 +94,16 @@ const Products = () => {
                   </div>
                   <h4><small>$</small>95<small>.00</small></h4>
                   <p>Red Silettos</p>
-                  <span><img src={stars} alt='stars'/> (91)</span><br/>
+                  <span className='star-details'>
+                    <div id='solid-stars'>
+                        <i className='bx bxs-star'></i>
+                        <i className='bx bxs-star'></i>
+                        <i className='bx bxs-star'></i>
+                        <i className='bx bxs-star'></i>
+                        <i className='bx bxs-star'></i>
+                    </div>
+                    (91)
+                    </span>
                   <button className='addToCart'><i className='bx bx-cart'></i> Add to Cart</button>
                 </div>
                 <div className='img1'>
@@ -86,7 +113,16 @@ const Products = () => {
                   </div>
                   <h4><small>$</small>95<small>.00</small></h4>
                   <p>Red Silettos</p>
-                  <span><img src={stars} alt='stars'/> (91)</span><br/>
+                  <span className='star-details'>
+                    <div id='solid-stars'>
+                        <i className='bx bxs-star'></i>
+                        <i className='bx bxs-star'></i>
+                        <i className='bx bxs-star'></i>
+                        <i className='bx bxs-star'></i>
+                        <i className='bx bxs-star'></i>
+                    </div>
+                    (91)
+                    </span>
                   <button className='addToCart'><i className='bx bx-cart'></i> Add to Cart</button>
                 </div>
                 <div className='img1'>
@@ -96,7 +132,16 @@ const Products = () => {
                   </div>
                   <h4><small>$</small>95<small>.00</small></h4>
                   <p>Red Silettos</p>
-                  <span><img src={stars} alt='stars'/> (91)</span><br/>
+                  <span className='star-details'>
+                    <div id='solid-stars'>
+                        <i className='bx bxs-star'></i>
+                        <i className='bx bxs-star'></i>
+                        <i className='bx bxs-star'></i>
+                        <i className='bx bxs-star'></i>
+                        <i className='bx bxs-star'></i>
+                    </div>
+                    (91)
+                    </span>
                   <button className='addToCart'><i className='bx bx-cart'></i> Add to Cart</button>
                 </div>
                 <div className='img1'>
@@ -106,7 +151,16 @@ const Products = () => {
                   </div>
                   <h4><small>$</small>95<small>.00</small></h4>
                   <p>Red Silettos</p>
-                  <span><img src={stars} alt='stars'/> (91)</span><br/>
+                  <span className='star-details'>
+                    <div id='solid-stars'>
+                        <i className='bx bxs-star'></i>
+                        <i className='bx bxs-star'></i>
+                        <i className='bx bxs-star'></i>
+                        <i className='bx bxs-star'></i>
+                        <i className='bx bxs-star'></i>
+                    </div>
+                    (91)
+                    </span>
                   <button className='addToCart'><i className='bx bx-cart'></i> Add to Cart</button>
                 </div>
                 <div className='img1'>
@@ -116,7 +170,16 @@ const Products = () => {
                   </div>
                   <h4><small>$</small>95<small>.00</small></h4>
                   <p>Red Silettos</p>
-                  <span><img src={stars} alt='stars'/> (91)</span><br/>
+                  <span className='star-details'>
+                    <div id='solid-stars'>
+                        <i className='bx bxs-star'></i>
+                        <i className='bx bxs-star'></i>
+                        <i className='bx bxs-star'></i>
+                        <i className='bx bxs-star'></i>
+                        <i className='bx bxs-star'></i>
+                    </div>
+                    (91)
+                    </span>
                   <button className='addToCart'><i className='bx bx-cart'></i> Add to Cart</button>
                 </div>
                 <div className='img1'>
@@ -126,7 +189,16 @@ const Products = () => {
                   </div>
                   <h4><small>$</small>95<small>.00</small></h4>
                   <p>Red Silettos</p>
-                  <span><img src={stars} alt='stars'/> (91)</span><br/>
+                  <span className='star-details'>
+                    <div id='solid-stars'>
+                        <i className='bx bxs-star'></i>
+                        <i className='bx bxs-star'></i>
+                        <i className='bx bxs-star'></i>
+                        <i className='bx bxs-star'></i>
+                        <i className='bx bxs-star'></i>
+                    </div>
+                    (91)
+                    </span>
                   <button className='addToCart'><i className='bx bx-cart'></i> Add to Cart</button>
                 </div>
                 <div className='img1'>
@@ -136,7 +208,16 @@ const Products = () => {
                   </div>
                   <h4><small>$</small>95<small>.00</small></h4>
                   <p>Red Silettos</p>
-                  <span><img src={stars} alt='stars'/> (91)</span><br/>
+                  <span className='star-details'>
+                    <div id='solid-stars'>
+                        <i className='bx bxs-star'></i>
+                        <i className='bx bxs-star'></i>
+                        <i className='bx bxs-star'></i>
+                        <i className='bx bxs-star'></i>
+                        <i className='bx bxs-star'></i>
+                    </div>
+                    (91)
+                    </span>
                   <button className='addToCart'><i className='bx bx-cart'></i> Add to Cart</button>
                 </div>
               </div>

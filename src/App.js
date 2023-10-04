@@ -5,6 +5,9 @@ import Navbar from './Components/Navbar';
 import { Home } from './Components/Home';
 import Products from './Components/Products';
 import Footer from './Components/Footer';
+import { Productdetails } from './Components/Productdetails';
+import { Choppingcart } from './Components/Choppingcart';
+import Checkout  from './Components/Checkout';
 
 function App() {
   return (
@@ -13,6 +16,8 @@ function App() {
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/Products' element={<Products/>}/>
+        <Route path='/Productdetails' element={<Productdetails/>}/>
+        <Route path='/Choppingcart' element={<Choppingcart/>}/>
       </Routes>
       <Footer />
     </>

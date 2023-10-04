@@ -27,7 +27,7 @@ const Navbar = () => {
         </div>
         <div className='nav-menu' style={{width: '248px',}}>
           <NavLink to={'/Products'}>Fruits</NavLink>
-          <NavLink to={'/Vegitables'}>Vegitables</NavLink>
+          <NavLink to={'/Productdetails'}>Vegitables</NavLink>
           <NavLink to={'/Grains'}>Grains</NavLink>
         </div>
         <div className='search-section'>
@@ -36,7 +36,7 @@ const Navbar = () => {
             <input type='search' placeholder='search here..'/>
           </div>
           <Link to={'#'}><i className='bx bx-heart'></i></Link>
-          <Link to={'#'}><i className='bx bx-cart'></i></Link>
+          <Link to={'/Choppingcart'}><i className='bx bx-cart'></i></Link>
         </div>
         <div className='Login-Sign-up'>
           <Link className='Login'> Login </Link>
