@@ -18,6 +18,8 @@ import Profilecrtd from './Crtsuccess';
 import Loginfin from './Loginsucces';
 import Login from './Login';
 import Profiledtls from './Profile';
+import { LoginSuccessful } from './LoginSuccessful';
+import { SignupSuccess } from './SignupSuccess';
 
 function App() {
   // class App extends Component {
@@ -36,6 +38,8 @@ function App() {
         <Route path='/Login' element={<Login/>}/>
         <Route path='/SignUp' element={<SignUp/>}/>
         <Route path='/Userprofile' element={<Userprofile/>}/>
+        <Route path='/LoginSuccessful' element={<LoginSuccessful/>}/>
+        <Route path='/SignupSuccess' element={<SignupSuccess/>}/>
       </Routes>
       {/* <Footer /> */}
     </>

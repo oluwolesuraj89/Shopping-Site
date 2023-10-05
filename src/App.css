@@ -20,6 +20,16 @@
   --Orange:#F56630;
   
 }
+.error-message {
+  background-color: #F64E60;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  width: 454px;
+  margin-bottom: 10px;
+}
+
 
 @font-face {
   font-family: Millik;
@@ -81,6 +91,28 @@
   border-left: 1px solid #ffffff3a;
   padding-left: 1rem;
 }
+
+.activity-indicator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.spinner {
+  border: 4px solid rgba(255, 255, 255, 0.3);
+  border-top: 4px solid #fff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
 
 /* Main Nav */
 .main-nav{
