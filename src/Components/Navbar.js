@@ -1,8 +1,20 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom';
 import { NavLink, Link } from 'react-router-dom';
 import Flag from '../Images/NigeriaFlag.png';
 
 const Navbar = () => {
+
+  const navigate = useNavigate();
+  
+  const continueToNextPage = () => {
+    navigate('/Login');
+  };
+
+  const navigateToSignup = () => {
+    navigate('/');  
+  };
+
   return (
     <div className='header-container'>
       <div className='nav-header'>
@@ -40,8 +52,8 @@ const Navbar = () => {
           <Link to={'/Choppingcart'}><i className='bx bx-cart'></i></Link>
         </div>
         <div className='Login-Sign-up'>
-          <Link className='Login'> Login </Link>
-          <Link  className='SignUp'>  Sign Up </Link>
+          <Link className='Login' onClick={continueToNextPage}> Login </Link>
+          <Link  className='SignUp' onClick={navigateToSignup}>  Sign Up </Link>
         </div>
       </div>
     </div>
