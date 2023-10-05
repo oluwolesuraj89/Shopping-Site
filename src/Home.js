@@ -9,7 +9,7 @@ import Navbar from './Navbar'
 const Home = () => {
     return (
         <div className="home">
-            <Navbar />
+            {/* <Navbar /> */}
             <img src={Heroimg} className="hero-img" alt="hero-img" />
             <p className='brandstxt'> Brands </p>
             <img src={Brand} className="brands" alt="brands" />
