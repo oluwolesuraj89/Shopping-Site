@@ -1,20 +1,20 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import OnbImg from './Images/login.png'
-import Divider from './Images/Divider.png'
-import GoogleIcon from './Images/GoogleIcon.png';
-import TwitterIcon from './Images/TwitterIcon.png';
+import OnbImg from '../Images/onb-img.png';
+import Divider from '../Images/Divider.png';
+import GoogleIcon from '../Images/GoogleIcon.png';
+import TwitterIcon from '../Images/TwitterIcon.png';
 
 
-const Login = () => {
+const SignUp = () => {
 const navigate = useNavigate();
   
     const continueToNextPage = () => {
-      navigate('/Loginsucces');
+      navigate('/UserProfile');  
     };
 
-    const navigateToonboarding = () => {
-        navigate('/');  
+    const navigateToLogin = () => {
+        navigate('/Login');  
       };
 
     return (
@@ -26,24 +26,21 @@ const navigate = useNavigate();
 
 
             <div className="sign-cont">
-                <h4 className='txt-h4' >Welclome back!</h4>
-                <p className='txt-p'>Don't have an account? <a className='anclog' onClick={navigateToonboarding}>Sign Up </a></p>
+                <h4 className='txt-h4' >Sign up!</h4>
+                <p className='txt-p'>You have an account already? <a className='anclog' onClick={navigateToLogin}>Login </a></p>
 
              <form>
-                <span className="st-id">Email Address</span>
+                <span className="st-id">OGIRS Number</span>
                 <br></br>
-                <input type="text" className="sn-input" placeholder="" />
-                <span className="st-id">Password</span>
-                <br></br>
-                <input type="text" className="sn-input" placeholder="" />
+                <input type="phone" className="sn-input" placeholder="" />
              </form>
               {/* <button className='sgn-btn'> Proceed </button> */}
               <button className='sgn-btn' onClick={continueToNextPage}>Proceed</button>
-            <div className='tandc'>
+                 <div className='tandc'>
                 <div>
-               <input type='checkbox' className='tandc-radio'></input></div>
-               <div>
-               <p>I Agree to the <a className='sgntrm' href=''>Terms </a  >and<a className='sgncndt' href=''> Conditions</a></p>
+                 <input type='checkbox' className='tandc-radio'></input></div>
+                <div>    
+                    <p>I Agree to the <a className='sgntrm' href=''>Terms </a  >and<a className='sgncndt' href=''> Conditions</a></p>
 
                </div>
               
@@ -63,10 +60,8 @@ const navigate = useNavigate();
                </div>
             </div>
 
-
             
 
-            {/* <button onClick={continueToNextPage}>Proceed</button> */} 
             
 
         </div>
@@ -75,4 +70,4 @@ const navigate = useNavigate();
     );
 }
 
-export default Login;
+export default SignUp;

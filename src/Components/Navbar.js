@@ -25,11 +25,11 @@ const Navbar = () => {
         <div className='nav-logo'>
           <NavLink to={'/'} id='Logo'> M </NavLink>
         </div>
-        <div className='nav-menu' style={{width: '248px',}}>
+        <div className='nav-menu' style={{width: '170px',}}>
           <NavLink to={'/Home'}>Home</NavLink>
           <NavLink to={'/Products'}>Categories</NavLink>
-          <NavLink to={'/Productdetails'}>About us</NavLink>
-          <NavLink to={'/Grains'}>Contact us</NavLink>
+          {/* <NavLink to={'/Productdetails'}>About us</NavLink> */}
+          {/* <NavLink to={'/Grains'}>Contact us</NavLink> */}
         </div>
         <div className='search-section'>
           <div className='search'>
@@ -40,8 +40,8 @@ const Navbar = () => {
           <Link to={'/Choppingcart'}><i className='bx bx-cart'></i></Link>
         </div>
         <div className='Login-Sign-up'>
-          <Link className='Login'> Login </Link>
-          <Link  className='SignUp'>  Sign Up </Link>
+          <Link to={'/Login'} className='Login'> Login </Link>
+          <Link to={'/SignUp'} className='SignUp'>  Sign Up </Link>
         </div>
       </div>
     </div>

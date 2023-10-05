@@ -27,10 +27,7 @@ body {
   text-decoration: none;
   padding: 0 1rem;
   color: black;
-
-
 }
-
 .header-top {
   background: #0C2718;
   color: white;
@@ -38,11 +35,7 @@ body {
   flex-wrap: wrap;
   font-size: 12px;
   font-weight: 500;
-
 }
-
-
-
 .header-top-left,
 .header-top-center,
 .header-top-right {
@@ -92,32 +85,24 @@ body {
   flex: 1;
   justify-content: center;
   display: space-between;
-
-
 }
-
 .search-container {
   position: relative;
   display: flex;
 }
-
 .subhead-right {
   justify-content: flex-end;
   margin-inline: 2rem;
 }
-
 .subhead {
   margin-inline: 1.5rem;
 }
-
 .header-top-right #headr {
   margin-inline: 5px;
 }
-
 .search-icon i {
   font-size: 20px;
 }
-
 .navbar .search-icon {
   width: 20px;
   height: auto;
@@ -307,8 +292,8 @@ body {
 /* Onboarding begins */
 
 .leftonb-img {
-  width: 601px;
-  height: 854.76px;
+  width: 500px;
+  height: 609px;
 }
 
 .signup {
@@ -328,24 +313,23 @@ body {
 }
 
 .txt-p {
-  margin-top: -39px;
+  /* margin-top: -39px; */
   font-weight: 400;
   font-size: 14px;
-  padding-bottom: 28px;
+  padding:5px 0 32px 0;
 }
-
 .st-id {
-  font-weight: 400px;
+  font-weight: 500;
   font-size: 14px;
-  margin-bottom: -50px;
+  margin-bottom: -49px;
 }
-
 .sn-input {
   border: 1.5px solid #D0D5DD;
   border-radius: 6px;
   width: 454px;
   height: 56px;
   margin-bottom: 25px;
+  padding-left: 10px;
 
 }
 
@@ -364,26 +348,23 @@ body {
 .tandc {
   display: flex;
   justify-content: center;
-  margin-top: 15px;
+  align-items: center;
+  padding-top: 26px;
   margin-right: 100px;
+  gap: 10px;
 }
 
 .tandc-radio {
-  margin-top: 17px;
+  margin-top: 5px;
   width: 18px;
   height: 18px;
-  margin-inline: 15px;
   border: 1.5px solid #BDC3BF;
-  /* margin-left: 45px; */
-
 }
 
 .divider {
   width: 454px;
   height: 28px;
   margin-top: 32px;
-  /* justify-content: center; */
-  /* margin-left: -55px; */
 }
 
 .anclog{
@@ -404,12 +385,23 @@ body {
 }
 
 .socials {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  
-  
+  width: 454px;
+}
+.socialBx{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding:16px;
+  border-radius: 6px;
+  border: 1px solid #D0D5DD;
+  width: 219px;
 }
 
-.goo {
+.goo { 
   width: 88px;
   height: 24px ;
   border: 1.5px solid #D0D5DD;
