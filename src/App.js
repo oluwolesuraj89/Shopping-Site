@@ -31,15 +31,7 @@ function App() {
         <Route path='/Products' element={<Products/>}/>
         <Route path='/Productdetails' element={<Productdetails/>}/>
         <Route path='/Choppingcart' element={<Choppingcart/>}/>
-
-        {/* <Route path="/Home" element={<Home/>} /> */}
-        <Route path="onboarding" element={<OnBoard />} />
-        <Route path="/UserProfile" element={<Userprofile/>} />
-        <Route path="/Createpwd" element={<Createpwd/>} />
-        <Route path="/Crtsuccess" element={<Profilecrtd/>} />
-        <Route path="/Loginsucces" element={<Loginfin/>} />
-        <Route path="/Login" element={<Loginbck/>} />
-        <Route path="/Profile" element={<Profiledtls/>} />
+        <Route path='/Checkout' element={<Checkout/>}/>
       </Routes>
       {/* <Footer /> */}
       {/* </BrowserRouter> */}

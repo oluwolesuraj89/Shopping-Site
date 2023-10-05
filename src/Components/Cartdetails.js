@@ -4,13 +4,6 @@ import Atarodo from '../Images/Atarodo.png'
 export const Cartdetails = () => {
     return (
         <div className='Cart-container'>
-            {/* <div className='my-cart'>
-                <span>
-                    <h1>My Cart</h1>
-                    <input type='text' placeholder='3'/>
-                </span>
-                <button><i class='bx bx-x'></i></button>
-            </div>    */}
             <div className='cart-details'>
                 <img src={Atarodo} alt='Pepper'/>  
                 <div id='content'>

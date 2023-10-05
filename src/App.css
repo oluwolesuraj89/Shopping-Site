@@ -688,7 +688,7 @@ h2{
   align-items:center;
   color:var(--green);
   gap:0.5rem;
-  padding-bottom:40px;
+  /* padding-bottom:40px; */
 }
 .option-btns button{
   background-color:transparent;
@@ -955,10 +955,24 @@ h2{
 
 /* Chopping Cart */
 .Cart-container{
-  width: 590px;
-  height: 981px;
+  width: 100%;
+  /* background:(255, 255, 255, 0.2); */
+  background-color: #c1c4c259;
+  display: flex;
+  justify-content: space-between;
+  /* height: 981px; */
   /* float: right; */
   /* padding: 40px 42px; */
+  /* background-color: var(--gray-2); */
+}
+.mainCart{
+  width: 590px;
+  height: 981px;
+  background-color: var(--white);
+  /* float: right; */
+  padding: 40px 42px;
+  margin-bottom: 35px;
+  z-index: 100ra;
   /* background-color: var(--gray-2); */
 }
 .Cart-container button{
@@ -1101,17 +1115,15 @@ h2{
 }
 
 /* Check Out */
-
+.Checkout{
+  margin-bottom: 1095px;
+}
 .orderSummary{
   padding: 32px;
   width: 760px;
   height: 580px;
   border-radius: 10px;
   border:1px solid #E4E7EC;
-}
-.checkout .my-cart{
-  /* padding: 0; */
-  /* margin: 0; */
 }
 .ProductInfo{
   display: flex;
@@ -1140,6 +1152,9 @@ h2{
 .Checkout{
   display: flex;
   justify-content: space-between;
+}
+#CheckoutMininavthree{
+  margin: 30px;
 }
 /* Payment information */
 .PaymentInfo{
@@ -1308,4 +1323,75 @@ form #inputs{
   font-size: 16px;
   margin-top: 28px;
   transition: ease 0.3s;
+}
+
+/* DeliveryInfo */
+.deliveryInfo{
+  width: 100%;
+  padding: 29px 33px 31px 32px;
+  border: 1px solid #F3FBF7;
+  background-color: #F3FBF7;
+  border-radius: 10px;
+  margin-top: 48px;
+}
+/* icons */
+.bx-circle{
+  font-size: 24px;
+  color:#889B91;
+}
+.deliveryInfo h2{
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -0.48px;
+}
+.deliveryInfo .headding, 
+.deliveryInfo .headding span{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 31px;
+  gap: 8px;
+}
+.deliveryInfo #yellow{
+  color:var(--yellow);
+  font-weight: 600;
+}
+.deliveryInfo #yellow:hover,
+.bx-circle:hover{
+  color: green;
+}
+.deliveryInfo .content h4{
+  font-size: 18px;
+  font-weight: 600;
+  color: #344054;
+  padding: 10px 0;
+}
+.deliveryInfo .content span{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 0;
+}
+.deliveryInfo .content i{
+  color: var(--green);
+  font-size: 20px;
+}
+
+/* pick in store */
+.pickInStore{
+  padding: 30px 32px !important;
+  margin-top: 24px !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.pickInStore .fa-angle-down{
+  color: var(--yellow);
+}
+.pickInStore span{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
 }
