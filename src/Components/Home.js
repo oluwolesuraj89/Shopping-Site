@@ -1,5 +1,7 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom';
+import Navbar from './Navbar';
+import Footer from './Footer';
 import Adidas from '../Images/Adidas.png'
 import Nike from '../Images/Nike.png'
 import NorthFace from '../Images/NorthFace.png'
@@ -20,11 +22,11 @@ import Layout from './Layout';
 
 export const Home = () => {
 
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
-  const Home = () =>{
-      navigate('/Home')
-  }
+  // const Home = () =>{
+      // navigate('/Home')
+  // }
   return (
     <Layout>
       <div className='body'>

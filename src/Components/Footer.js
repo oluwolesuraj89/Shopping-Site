@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink, Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 
 const Footer = () => {
@@ -25,6 +26,10 @@ const Footer = () => {
                     <i class='bx bxl-instagram instagram'></i>
                     <i class='bx bxl-linkedin-square linkedin'></i>
                     </div>
+                    {/* <div style={}> */}
+                     <NavLink to={'/Productdetails'}>About us</NavLink>
+                     <NavLink to={'/Grains'}>Contact us</NavLink>
+                    {/* </div> */}
                     <p>© 2023 Rayna. All rights reserved.</p>
                     <button onClick={Home} className='footer-btn'>M</button>
                 </div>

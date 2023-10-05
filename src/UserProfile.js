@@ -8,8 +8,8 @@ import Imgicon from './Images/img-icon.png'
 function UserProfile() {
     const navigate = useNavigate();
 
-    const continueToNextPage = () => {
-        navigate('/Createpwd'); // Navigate to the desired page
+    const Proceed = () => {
+        navigate('/PassWordSuccessfull'); // Navigate to the desired page
     };
 
     const navigateToLogin = () => {
@@ -26,29 +26,36 @@ function UserProfile() {
             <div className="usr-cont">
                 <h4 className='txt-usr' >User Profile!</h4>
                 <p className='txt-p'>You have an account already? <a className='anclog' onClick={navigateToLogin}>Login </a></p>
-                <img src={Imgframe} className="frame-img" alt="img" />
-                <img src={Imgicon} className="img-icon" alt="img" />
+                <div className='profile'>
+                    <div id='profilePic-cont'></div>
+                    <img src={Imgicon} className="img-icon" alt="img" />
+                </div>
 
                 <form>
-                    <span className="usr-fn">Full Name</span>
-                    <br></br>
-                    <input type="text" className="usr-input" placeholder="Mark Ekpobiyere" />
-                    <span className="usr-fn">Address</span>
-                    <br></br>
-                    <input type="text" className="usr-input" placeholder="Lagos Abeokuta express way, Obada Ogun State" />
-                    <span className="usr-fn">Email</span>
-                    <br></br>
-                    <input type="text" className="usr-input" placeholder="markekpobiyere@gmail.com" />
-                    <span className="usr-fn">State</span>
-                    <br></br>
-                    <input type="text" className="usr-input" placeholder=" Ogun State" />
-                    <span className="usr-fn">Phone Number</span>
-                    <br></br>
-                    <input type="text" className="usr-input" placeholder="+2349060606060" />
-
+                    <div>
+                        <span className="usr-fn">Full Name</span><br/>
+                        <input type="text" className="usr-input" placeholder="Enter your full name" />
+                    </div>
+                    <div>
+                        <span className="usr-fn">Address</span><br/>
+                        <input type="text" className="usr-input" placeholder="Enter your address" />
+                    </div>
+                    <div>
+                        <span className="usr-fn">Email</span><br/>
+                        <input type="text" className="usr-input" placeholder=" Enter your valid email" />
+                    </div>
+                    <div>
+                        <span className="usr-fn">State</span><br/>
+                        <input type="text" className="usr-input" placeholder=" Enter your mail" />
+                    </div>
+                    <div>
+                        <label className="usr-fn">Phone Number</label><br/>
+                        <input type="text" className="usr-input" placeholder="Enter your phone number" />
+                    </div>
                 </form>
 
-                   <button  className='usr-btn' onClick={continueToNextPage} >Proceed</button>
+                   <button  className='usr-btn edit'>Proceed</button>
+                   <button  className='usr-btn proceed' onClick={Proceed} >Proceed</button>
                  
 
             </div>
