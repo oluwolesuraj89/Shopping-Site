@@ -1,8 +1,20 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom';
 import { NavLink, Link } from 'react-router-dom';
 import Flag from '../Images/NigeriaFlag.png';
 
 const Navbar = () => {
+
+  const navigate = useNavigate();
+  
+  const continueToNextPage = () => {
+    navigate('/Login');
+  };
+
+  const navigateToSignup = () => {
+    navigate('/');  
+  };
+
   return (
     <div className='header-container'>
       <div className='nav-header'>

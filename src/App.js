@@ -27,6 +27,7 @@ function App() {
     // <div className="App">
     <>
       {/* <Navbar/> */}
+      {/* <BrowserRouter> */}
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path= '/Home' element={<Home/>}/>
@@ -42,6 +43,7 @@ function App() {
 
       </Routes>
       {/* <Footer /> */}
+      {/* </BrowserRouter> */}
     </>
     
     // <div className="Landing-page">
