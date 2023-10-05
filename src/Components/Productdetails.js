@@ -5,6 +5,8 @@ import Beans from '../Images/Beans.png';
 import Rice from '../Images/Rice.png';
 import Garri from '../Images/Garri.png';
 import Ewedu from '../Images/Ewedu.png';
+// import { Mininavtwo } from '../ChoppingCartComponents/Mininavtwo';
+
 
 export const Productdetails = () => {
 
@@ -20,13 +22,7 @@ export const Productdetails = () => {
     return (
         <div className='body'>
             <div className='main productdetails'>
-                <div className='option-btns'>
-                    <button onClick={Home}>Home</button>
-                    <span>/</span>
-                    <button onClick={Fruit}>Fruits</button>
-                    <span>/</span>
-                    <button>Pepper</button>
-                </div>
+                
                 <div className='container'>
                     {/* <div className='img'> */}
                         <img src={Pepper} alt='Fruits'/>

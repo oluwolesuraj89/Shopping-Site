@@ -26,9 +26,10 @@ const Navbar = () => {
           <NavLink to={'/'} id='Logo'> M </NavLink>
         </div>
         <div className='nav-menu' style={{width: '248px',}}>
-          <NavLink to={'/Products'}>Fruits</NavLink>
-          <NavLink to={'/Productdetails'}>Vegitables</NavLink>
-          <NavLink to={'/Grains'}>Grains</NavLink>
+          <NavLink to={'/Home'}>Home</NavLink>
+          <NavLink to={'/Products'}>Categories</NavLink>
+          <NavLink to={'/Productdetails'}>About us</NavLink>
+          <NavLink to={'/Grains'}>Contact us</NavLink>
         </div>
         <div className='search-section'>
           <div className='search'>
