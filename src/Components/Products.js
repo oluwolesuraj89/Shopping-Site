@@ -59,7 +59,7 @@ export const Products = () => {
               </div>
             </div>
             <div className='fruits'>
-              <h1>Fruits</h1>
+              <h1>Products</h1>
               <p>Showing 1- 15 of 200 results</p>
               <div className='fruit-grid'>
                 <div className='img1'>
@@ -234,8 +234,6 @@ export const Products = () => {
                   <button className='addToCart'><i className='bx bx-cart'></i> Add to Cart</button>
                 </div>
               </div>
-
-
         </div>
         </div>
         <Footer/>

@@ -292,15 +292,13 @@ body {
 /* Onboarding begins */
 
 .leftonb-img {
-  width: 500px;
-  height: 609px;
+  width: 600px;
+  height: 100%;
 }
-
 .signup {
   display: flex;
   justify-content: space-between;
 }
-
 .sign-cont {
   padding-right: 290px;
   padding-top: 145px;
@@ -423,38 +421,59 @@ body {
 .usrpr {
   display: flex;
   justify-content: space-between;
+  /* height: 100vh; */
 }
-
+.usr-cont{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 88px;
+}
 .txt-usr{
   font-weight: 600;
   font-size: 36px;
-  margin-left: 218px;
-  padding-top: 4px;
+  /* margin-left: 218px; */
+  /* padding-top: 4px; */
 }
 
 .usr-cont .txt-p {
-  margin-left: 202px;
+  /* margin-left: 202px; */
+}
+.profile{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 100px;
+  position: relative;
+}
+#profilePic-cont{
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  border:1px solid #D0D5DD;
+}
+.img-icon {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  right: 44px;
+  bottom: 0;
 }
 
+
+
 form{
-  margin-right: 95px;
+  /* margin-right: 95px; */
  
 }
 
 .frame-img {
   width: 100px;
   height: 100px;
-  margin-left: 255px;
-  margin-bottom: 20px;
-}
-
-.img-icon {
-  width: 32px;
-  height: 32px;
-  position: absolute;
-  right: 17.7rem;
-  top: 42%;
-  transform: translateY(-50%);
+  /* margin-left: 255px; */
+  /* margin-bottom: 20px; */
 }
 
 .usr-input {
@@ -462,32 +481,42 @@ form{
   border-radius: 6px;
   width: 440px;
   height: 56px;
-  margin-left: 85px;
-  margin-bottom: 15px;
-  display: block;
   padding-left: 15px;
 }
 
 .usr-fn{
   font-weight: 500;
   font-size: 14px;
-  margin-left: 85px;
-  
-}
-
+} 
 .usr-btn {
-  margin-top: 32px;
-  margin-left: 88px;
-  background-color: #2F945C;
-  border: 1.5px solid #2F945C;
   border-radius: 6px;
   width: 454px;
   height: 56px;
-  color: white;
+  padding: 16px 24px;
+  margin-top: 24px;  
   font-size: 16px;
   font-weight: 600;
+  transition: ease 0.5s;
 }
-
+.edit{
+  border: 1px solid #0C2718;
+  color: #0C2718;
+  background-color: transparent;
+}
+.edit:hover{
+  border:1px solid #2F945C;
+  background-color: #2F945C;
+  color: white;
+}
+.proceed{
+  background-color: #2F945C;
+  border: 1.5px solid #2F945C;
+  color: white;
+}
+.proceed:hover{
+  background-color: #0C2718;
+  color: #FBBC05;
+}
 .txt-cpwd {
 font-weight: 600;
 font-size: 36px;

@@ -23,8 +23,6 @@ const navigate = useNavigate();
                 <img src={OnbImg} className="leftonb-img" alt="img" />
             </div>
 
-
-
             <div className="sign-cont">
                 <h4 className='txt-h4' >Sign up!</h4>
                 <p className='txt-p'>You have an account already? <a className='anclog' onClick={navigateToLogin}>Login </a></p>
