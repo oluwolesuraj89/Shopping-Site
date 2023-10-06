@@ -23,7 +23,7 @@ const Navbar = () => {
 
       <div className='main-nav'>
         <div className='nav-logo'>
-          <NavLink to={'/'} id='Logo'> M </NavLink>
+          <NavLink to={'/Home'} id='Logo'> M </NavLink>
         </div>
         <div className='nav-menu' style={{width: '170px',}}>
           <NavLink to={'/Home'}>Home</NavLink>

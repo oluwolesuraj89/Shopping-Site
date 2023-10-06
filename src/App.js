@@ -26,9 +26,7 @@ function App() {
   // class App extends Component {
   //   render() {
   return (
-    // <div className="App">
     <>
-      {/* <Navbar/> */}
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path= '/Home' element={<Home/>}/>
@@ -45,6 +43,7 @@ function App() {
 
       </Routes>
       {/* <Footer /> */}
+      {/* </BrowserRouter> */}
     </>
     
     // <div className="Landing-page">
