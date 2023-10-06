@@ -1,6 +1,6 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom';
-import Navbar from './Navbar';
+// import Navbar from './Navbar';
 import Footer from './Footer';
 import Adidas from '../Images/Adidas.png'
 import Nike from '../Images/Nike.png'
@@ -16,25 +16,25 @@ import Beans from '../Images/Beans.png';
 import Garri from '../Images/Garri.png';
 import Ewedu from '../Images/Ewedu.png';
 import Fruits from '../Images/FruitPackages.png';
-// import { HomePage } from './HomePage';
+import Navigation from './Navigation';
 
 
 
-export const Home = () => {
+export const HomePage = () => {
 
-  const navigate = useNavigate();
+//   const navigate = useNavigate();
 
-  const HomePage = () =>{
-      navigate('/HomePage')
-  }
+//   const HomePage = () =>{
+    //   navigate('/HomePage')
+//   }
   return (
     <div>
-    <Navbar/>
+    <Navigation/>
     <div className='body'>
       <div className='main'>
         <div className='hero-background'>
           <div id='contents'>
-            <div onClick={HomePage} style={{cursor:'pointer',}}  className='h4'>
+            <div   className='h4'>
               ENDLESS SUMMER SALE
             </div>
             <h4>Up to <span>20% off</span> on all items till <span>September 11</span></h4>

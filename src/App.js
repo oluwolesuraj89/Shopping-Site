@@ -1,24 +1,26 @@
 // import logo from './logo.svg';
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
-import Navbar from './Components/Navbar';
+// import Navbar from './Components/Navbar';
 import { Home } from './Components/Home';
 import Products from './Components/Products';
-import Footer from './Components/Footer';
+// import Footer from './Components/Footer';
 import { Productdetails } from './Components/Productdetails';
 import { Choppingcart } from './Components/Choppingcart';
 import Checkout  from './Components/Checkout';
-import React,  { Component } from 'react'
+// import React,  { Component } from 'react'
 import './index.css'
 // import OnBoard from './onboarding';
 import SignUp from './Components/SignUp';
 import Userprofile from './UserProfile';
 import { PassWordSuccessfull } from './Components/PassWordSuccessfull';
 // import Profilecrtd from './Crtsuccess';
-import Loginfin from './Loginsucces';
+// import Loginfin from './Loginsucces';
 import Login from './Login';
-import Profiledtls from './Profile';
+// import Profiledtls from './Profile';
 import { LoginSuccessful } from './Components/LoginSuccessful';
+import { HomePage } from './Components/HomePage';
+
 
 function App() {
   // class App extends Component {
@@ -39,6 +41,7 @@ function App() {
         <Route path='/Userprofile' element={<Userprofile/>}/>
         <Route path='/PassWordSuccessfull' element={<PassWordSuccessfull/>}/>
         <Route path='/LoginSuccessful' element={<LoginSuccessful/>}/>
+        <Route path='/HomePage' element={<HomePage/>}/>
 
       </Routes>
       {/* <Footer /> */}
