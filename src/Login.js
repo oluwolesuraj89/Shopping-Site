@@ -10,7 +10,7 @@ const Login = () => {
 const navigate = useNavigate();
   
     const continueToNextPage = () => {
-      navigate('/Loginsucces');
+      navigate('/LoginSuccessful');
     };
 
     const navigateToonboarding = () => {

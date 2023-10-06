@@ -8,8 +8,8 @@ import Imgicon from './Images/img-icon.png'
 function UserProfile() {
     const navigate = useNavigate();
 
-    const continueToNextPage = () => {
-        navigate('/Createpwd'); // Navigate to the desired page
+    const Proceed = () => {
+        navigate('/PassWordSuccessfull'); // Navigate to the desired page
     };
 
     const navigateToLogin = () => {
@@ -55,7 +55,7 @@ function UserProfile() {
                 </form>
 
                    <button  className='usr-btn edit'>Proceed</button>
-                   <button  className='usr-btn proceed' onClick={continueToNextPage} >Proceed</button>
+                   <button  className='usr-btn proceed' onClick={Proceed} >Proceed</button>
                  
 
             </div>

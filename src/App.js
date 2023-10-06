@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import Navbar from './Components/Navbar';
@@ -13,11 +13,12 @@ import './index.css'
 // import OnBoard from './onboarding';
 import SignUp from './Components/SignUp';
 import Userprofile from './UserProfile';
-import Createpwd from './Createpwd';
-import Profilecrtd from './Crtsuccess';
+import { PassWordSuccessfull } from './Components/PassWordSuccessfull';
+// import Profilecrtd from './Crtsuccess';
 import Loginfin from './Loginsucces';
 import Login from './Login';
 import Profiledtls from './Profile';
+import { LoginSuccessful } from './Components/LoginSuccessful';
 
 function App() {
   // class App extends Component {
@@ -36,6 +37,9 @@ function App() {
         <Route path='/Login' element={<Login/>}/>
         <Route path='/SignUp' element={<SignUp/>}/>
         <Route path='/Userprofile' element={<Userprofile/>}/>
+        <Route path='/PassWordSuccessfull' element={<PassWordSuccessfull/>}/>
+        <Route path='/LoginSuccessful' element={<LoginSuccessful/>}/>
+
       </Routes>
       {/* <Footer /> */}
     </>
